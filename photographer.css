@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  width: 100vw;
+}
+.img_cont {
+  position: relative;
+  width: 100%;
+}
+.img_cont img {
+  width: 100%;
+}
+.title {
+  width: 22%;
+  height: 25%;
+  color: white;
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 35%;
+  left: 40%;
+  letter-spacing: 2px;
+}
+.name,
+.role {
+  padding: 8px 16px;
+}
+.name {
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.role {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio img {
+  padding: 10px;
+}
+
+.contact_form {
+  text-align: justify;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+.contact_form form {
+  padding: 8px 16px;
+}
+input {
+  padding: 8px 16px;
+  width: 97%;
+  margin: 10px;
+}
+.contact_form p {
+  padding: 25px 16px 10px 16px;
+}
+input[type="submit"] {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 120%;
+  font-weight: 200px;
+}
+input[type="submit"]:hover {
+  background-color: #f7f7f7;
+  color: black;
+}
+.anchors {
+  background-color: #f1f1f1;
+  width: max-content;
+  padding: 8px 16px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -10px;
+  left: 40%;
+}
+.anchors a {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+}
+.anchors a:hover {
+  background-color: darkgray;
+}
